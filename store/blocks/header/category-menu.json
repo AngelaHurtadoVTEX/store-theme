@@ -4,105 +4,112 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
+      "menu-item#category-fantasia",
+      "menu-item#category-Literatura",
+      "menu-item#category-Novela",
+      "menu-item#category-Humanidades",
+      "menu-item#category-Productividad",
       "menu-item#more"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-fantasia": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-fantasia",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/fantasia/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Fantasia",
+        "text": "Fantasia"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
+    }
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-fantasia": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
+    }
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-Novela": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-Novela",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/novela/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Novela",
+        "text": "Novela"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "vtex.menu@2.x:menu#category-Novela": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-Literatura": {
+    "props": {
+      "id": "menu-item-category-Literatura",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/literatura/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Literatura",
+        "text": "Literatura"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "vtex.menu@2.x:menu#category-Literatura": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-Humanidades": {
+    "props": {
+      "id": "menu-item-category-Humanidades",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/humanidades/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Humanidades",
+        "text": "Humanidades"
       }
     }
   },
-  "menu-item#category-home": {
+  "vtex.menu@2.x:menu#category-Humanidades": {
     "props": {
-      "id": "menu-item-category-home",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-Productividad": {
+    "props": {
+      "id": "menu-item-category-Productividad",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/productividad/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Productividad",
+        "text": "Productividad"
       }
+    }
+  },
+  "vtex.menu@2.x:menu#category-Productividad": {
+    "props": {
+      "orientation": "vertical"
     }
   },
   "menu-item#more": {
@@ -115,8 +122,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Mas",
+        "text": "Mas"
       }
     },
     "blocks": [
